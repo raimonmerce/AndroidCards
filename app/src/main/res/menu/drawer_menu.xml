@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/itemGame"
+        android:icon="@drawable/ic_game"
+        android:title="Game" />
+
+    <item
+        android:id="@+id/itemStadistics"
+
+        android:icon="@drawable/ic_stadistics"
+        android:title="Estadisticas" />
+
+    <item
+        android:id="@+id/itemGlobalStadistics"
+
+        android:icon="@drawable/ic_baseline_global"
+        android:title="Estadisticas Globales" />
+
+    <item
+        android:id="@+id/itemmap"
+
+        android:icon="@drawable/ic_map"
+        android:title="Map" />
+
+    <item
+        android:id="@+id/itemfriend"
+
+        android:icon="@drawable/ic_friends"
+        android:title="Friends" />
+
+    <item
+        android:id="@+id/itemLogout"
+
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+</group>
+</menu>
